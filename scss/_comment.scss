@@ -1,0 +1,17 @@
+.main {
+  &__remind {
+    font-size: 14px;
+    border-left: 3px solid #ffdf65;
+    background: #fefefe;
+    border-radius: 4px;
+  }
+  &__card {
+    list-style: none;
+    &-body {
+      &--reply {
+        background: #f8f9fa;
+        border-radius: 4px;
+      }
+    }
+  }
+}

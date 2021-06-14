@@ -1,0 +1,26 @@
+.main {
+  &__card {
+    border: 1px solid #e5e5e5;
+    list-style: none;
+    &-body {
+      &--title {
+        line-height: 24px;
+      }
+      &--date {
+        letter-spacing: 0.49px;
+        line-height: 24px;
+      }
+
+      &--para {
+        font-size: 14px;
+        text-align: justify;
+        line-height: 20px;
+      }
+
+      &--more {
+        color: #ff785e;
+        font-size: 14px;
+      }
+    }
+  }
+}

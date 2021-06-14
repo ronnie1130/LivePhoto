@@ -1,0 +1,36 @@
+.btn-primary-hover:hover {
+  background-color: #ff785e;
+  color: #fff;
+  border-color: #ff785e;
+}
+
+.btn-secondary-hover:hover {
+  background-color: #ffdf65;
+  border-color: #ffdf65;
+  color: #858377;
+}
+
+.btn-secondary-hover:hover .fa-heart {
+  color: #ff785e;
+}
+
+.active {
+  border-bottom: 3px solid #ffdf65;
+}
+
+.toggle {
+  & i {
+    font-size: 28px;
+    top: 5px;
+    left: 120px;
+  }
+}
+
+.account-input {
+  background: #f7f7f7;
+  border: none;
+}
+
+.btn-login {
+  padding: 12px 214px;
+}
