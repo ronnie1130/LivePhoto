@@ -20,9 +20,13 @@
 
 .toggle {
   & i {
-    font-size: 24px;
+    font-size: 28px;
     top: 7px;
-    left: 6px;
+    left: 120px;
+    
+    @media (max-width:576px){
+      font-size: 24px;
+      left: 6px;
   }
 }
 
