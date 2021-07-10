@@ -10283,9 +10283,17 @@ body {
 }
 
 .toggle i {
+  font-size: 28px;
+  top: 7px;
+  left: 120px;
+}
+
+@media (max-width: 576px) {
+  .toggle i {
   font-size: 24px;
   top: 7px;
   left: 6px;
+  }
 }
 
 .account-input {
